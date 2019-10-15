@@ -1,0 +1,24 @@
+{
+  "name": "open-scape-viewer",
+  "version": "1.0.0",
+  "description": "Refreshing Image from the filesytem",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build --win --x64 --ia32"
+  },
+  "author": "Danny Candra",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.0",
+    "electron-builder": "^20.28.4"
+  },
+  "build": {
+    "appId": "open.scape.viewer",
+    "win": {}
+  },
+  "dependencies": {
+    "properties-reader": "0.0.16"
+  }
+}
