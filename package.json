@@ -11,7 +11,7 @@
   "author": "Danny Candra",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.0",
+    "electron": "^7.2.4",
     "electron-builder": "^20.28.4"
   },
   "build": {
